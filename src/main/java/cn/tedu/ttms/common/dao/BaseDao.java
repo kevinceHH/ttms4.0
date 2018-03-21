@@ -34,5 +34,5 @@ public interface BaseDao<T> {
 	
 	int changeState(@Param("id")Integer userId, @Param("valid")Integer valid);
 	
-	User findObjectByName(String username);
+	User findObjectByName(String username);//
 }
